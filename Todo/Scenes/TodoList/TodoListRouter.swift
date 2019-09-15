@@ -60,13 +60,5 @@ class TodoListRouter: NSObject, TodoListRoutingLogic, TodoListDataPassing
         
         destination.todo = todo
     }
-//
-//    func passDataToCreateFax(receipt: FaxReceiptObject, faxDocument: FaxDocument, destination: inout SendFaxDataStore) {
-//
-//        destination.recipientNumber = receipt.recipient
-//        destination.senderName = receipt.senderName
-//        destination.senderPhoneNumber = receipt.senderPhoneNumber
-//        destination.countryCode = receipt.recipientCountryCode
-//        destination.documentContent?.append(faxDocument)
-//    }
+
 }
